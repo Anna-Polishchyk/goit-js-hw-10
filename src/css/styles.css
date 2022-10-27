@@ -1,5 +1,10 @@
 * {
   box-sizing: border-box;
+  margin: 0 0;
+  padding: 0 0;
+}
+li {
+  display: inline-block;
 }
 
 body {
@@ -16,5 +21,25 @@ body {
   font: inherit;
   padding: 8px;
   max-width: 320px;
-  margin-bottom: 16px;
+  margin: 16px 0px 16px 30px;
+}
+
+img {
+  display: block;
+}
+
+.countries-info {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.country-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
 }
